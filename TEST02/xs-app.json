@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/TEST02/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/TEST02/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}
